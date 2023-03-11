@@ -1,0 +1,603 @@
+/* 1 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a1"),
+    "DNAME" : "Research",
+    "MANAGER_FNAME" : "Franklin",
+    "MANAGER_LNAME" : "Wong",
+    "MGR_START_DATE" : "22-MAY-1978",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "Franklin",
+            "EMP_LNAME" : "Wong",
+            "EMP_SSN" : "333445555",
+            "EMP_SALARY" : 40000,
+            "EMP_DNO" : 5
+        }, 
+        {
+            "EMP_FNAME" : "John",
+            "EMP_LNAME" : "Smith",
+            "EMP_SSN" : "123456789",
+            "EMP_SALARY" : 30000,
+            "EMP_DNO" : 5
+        }, 
+        {
+            "EMP_FNAME" : "Ramesh",
+            "EMP_LNAME" : "Narayan",
+            "EMP_SSN" : "666884444",
+            "EMP_SALARY" : 38000,
+            "EMP_DNO" : 5
+        }, 
+        {
+            "EMP_FNAME" : "Joyce",
+            "EMP_LNAME" : "English",
+            "EMP_SSN" : "453453453",
+            "EMP_SALARY" : 25000,
+            "EMP_DNO" : 5
+        }, 
+        {
+            "EMP_FNAME" : "Michael",
+            "EMP_LNAME" : "Morgan",
+            "EMP_SSN" : "636669233",
+            "EMP_SALARY" : 73500,
+            "EMP_DNO" : 5
+        }, 
+        {
+            "EMP_FNAME" : "Andrea",
+            "EMP_LNAME" : "Sondrini",
+            "EMP_SSN" : "614370310",
+            "EMP_SALARY" : 65000,
+            "EMP_DNO" : 5
+        }, 
+        {
+            "EMP_FNAME" : "James",
+            "EMP_LNAME" : "Miller",
+            "EMP_SSN" : "906218888",
+            "EMP_SALARY" : 75000,
+            "EMP_DNO" : 5
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a2"),
+    "DNAME" : "Administration",
+    "MANAGER_FNAME" : "Jennifer",
+    "MANAGER_LNAME" : "Wallace",
+    "MGR_START_DATE" : "01-JAN-1985",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "Jennifer",
+            "EMP_LNAME" : "Wallace",
+            "EMP_SSN" : "987654321",
+            "EMP_SALARY" : 43000,
+            "EMP_DNO" : 4
+        }, 
+        {
+            "EMP_FNAME" : "Alicia",
+            "EMP_LNAME" : "Zelaya",
+            "EMP_SSN" : "999887777",
+            "EMP_SALARY" : 25000,
+            "EMP_DNO" : 4
+        }, 
+        {
+            "EMP_FNAME" : "Ahmad",
+            "EMP_LNAME" : "Jabbar",
+            "EMP_SSN" : "987987987",
+            "EMP_SALARY" : 25000,
+            "EMP_DNO" : 4
+        }, 
+        {
+            "EMP_FNAME" : "Wilson",
+            "EMP_LNAME" : "Holmes",
+            "EMP_SSN" : "242916639",
+            "EMP_SALARY" : 72500,
+            "EMP_DNO" : 4
+        }, 
+        {
+            "EMP_FNAME" : "Cameron",
+            "EMP_LNAME" : "Thirteen",
+            "EMP_SSN" : "111422203",
+            "EMP_SALARY" : 80000,
+            "EMP_DNO" : 4
+        }, 
+        {
+            "EMP_FNAME" : "Richard",
+            "EMP_LNAME" : "Koelbel",
+            "EMP_SSN" : "214370999",
+            "EMP_SALARY" : 85000,
+            "EMP_DNO" : 4
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a3"),
+    "DNAME" : "Headquarters",
+    "MANAGER_FNAME" : "James",
+    "MANAGER_LNAME" : "Borg",
+    "MGR_START_DATE" : "19-JUN-1971",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "James",
+            "EMP_LNAME" : "Borg",
+            "EMP_SSN" : "888665555",
+            "EMP_SALARY" : 55000,
+            "EMP_DNO" : 1
+        }, 
+        {
+            "EMP_FNAME" : "Jisha",
+            "EMP_LNAME" : "Carpenter",
+            "EMP_SSN" : "292740167",
+            "EMP_SALARY" : 15000,
+            "EMP_DNO" : 1
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a4"),
+    "DNAME" : "Software",
+    "MANAGER_FNAME" : "Jared",
+    "MANAGER_LNAME" : "James",
+    "MGR_START_DATE" : "15-MAY-1999",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "Jared",
+            "EMP_LNAME" : "James",
+            "EMP_SSN" : "111111100",
+            "EMP_SALARY" : 85000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Jon",
+            "EMP_LNAME" : "Jones",
+            "EMP_SSN" : "111111101",
+            "EMP_SALARY" : 45000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Justin",
+            "EMP_LNAME" : "Mark",
+            "EMP_SSN" : "111111102",
+            "EMP_SALARY" : 40000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Brad",
+            "EMP_LNAME" : "Knight",
+            "EMP_SSN" : "111111103",
+            "EMP_SALARY" : 44000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Kim",
+            "EMP_LNAME" : "Grace",
+            "EMP_SSN" : "333333300",
+            "EMP_SALARY" : 79000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Jeff",
+            "EMP_LNAME" : "Chase",
+            "EMP_SSN" : "333333301",
+            "EMP_SALARY" : 44000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Nandita",
+            "EMP_LNAME" : "Ball",
+            "EMP_SSN" : "555555501",
+            "EMP_SALARY" : 62000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "John",
+            "EMP_LNAME" : "Ed",
+            "EMP_SSN" : "222333444",
+            "EMP_SALARY" : 30000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Jose",
+            "EMP_LNAME" : "Barbara",
+            "EMP_SSN" : "343434344",
+            "EMP_SALARY" : 35000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Penny",
+            "EMP_LNAME" : "Wolowitz",
+            "EMP_SSN" : "673466642",
+            "EMP_SALARY" : 17000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Debra",
+            "EMP_LNAME" : "Hall",
+            "EMP_SSN" : "202843824",
+            "EMP_SALARY" : 30000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Jake",
+            "EMP_LNAME" : "Sheen",
+            "EMP_SSN" : "245239264",
+            "EMP_SALARY" : 52000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Cindy",
+            "EMP_LNAME" : "Burklow",
+            "EMP_SSN" : "432765098",
+            "EMP_SALARY" : 45000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Zach",
+            "EMP_LNAME" : "Geller",
+            "EMP_SSN" : "913353347",
+            "EMP_SALARY" : 55000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Alex",
+            "EMP_LNAME" : "Yu",
+            "EMP_SSN" : "001614905",
+            "EMP_SALARY" : 50000,
+            "EMP_DNO" : 6
+        }, 
+        {
+            "EMP_FNAME" : "Christina",
+            "EMP_LNAME" : "Hisel",
+            "EMP_SSN" : "241625699",
+            "EMP_SALARY" : 45000,
+            "EMP_DNO" : 6
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a5"),
+    "DNAME" : "Hardware",
+    "MANAGER_FNAME" : "Alex",
+    "MANAGER_LNAME" : "Freed",
+    "MGR_START_DATE" : "15-MAY-1998",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "Alex",
+            "EMP_LNAME" : "Freed",
+            "EMP_SSN" : "444444400",
+            "EMP_SALARY" : 89000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Evan",
+            "EMP_LNAME" : "Wallis",
+            "EMP_SSN" : "222222200",
+            "EMP_SALARY" : 92000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Josh",
+            "EMP_LNAME" : "Zell",
+            "EMP_SSN" : "222222201",
+            "EMP_SALARY" : 56000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Andy",
+            "EMP_LNAME" : "Vile",
+            "EMP_SSN" : "222222202",
+            "EMP_SALARY" : 53000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Tom",
+            "EMP_LNAME" : "Brand",
+            "EMP_SSN" : "222222203",
+            "EMP_SALARY" : 62500,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Jenny",
+            "EMP_LNAME" : "Vos",
+            "EMP_SSN" : "222222204",
+            "EMP_SALARY" : 61000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Chris",
+            "EMP_LNAME" : "Carter",
+            "EMP_SSN" : "222222205",
+            "EMP_SALARY" : 43000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Bonnie",
+            "EMP_LNAME" : "Bays",
+            "EMP_SSN" : "444444401",
+            "EMP_SALARY" : 70000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Alec",
+            "EMP_LNAME" : "Best",
+            "EMP_SSN" : "444444402",
+            "EMP_SALARY" : 60000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Sam",
+            "EMP_LNAME" : "Snedden",
+            "EMP_SSN" : "444444403",
+            "EMP_SALARY" : 48000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Gregory",
+            "EMP_LNAME" : "Laurie",
+            "EMP_SSN" : "444212096",
+            "EMP_SALARY" : 90000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Lisa",
+            "EMP_LNAME" : "House",
+            "EMP_SSN" : "101248268",
+            "EMP_SALARY" : 85000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Leonard",
+            "EMP_LNAME" : "Moody",
+            "EMP_SSN" : "349273344",
+            "EMP_SALARY" : 45000,
+            "EMP_DNO" : 7
+        }, 
+        {
+            "EMP_FNAME" : "Joseph",
+            "EMP_LNAME" : "Kirkish",
+            "EMP_SSN" : "913323708",
+            "EMP_SALARY" : 95000,
+            "EMP_DNO" : 7
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a6"),
+    "DNAME" : "Sales",
+    "MANAGER_FNAME" : "John",
+    "MANAGER_LNAME" : "James",
+    "MGR_START_DATE" : "01-JAN-1997",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "John",
+            "EMP_LNAME" : "James",
+            "EMP_SSN" : "555555500",
+            "EMP_SALARY" : 81000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Bob",
+            "EMP_LNAME" : "Bender",
+            "EMP_SSN" : "666666600",
+            "EMP_SALARY" : 96000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Kate",
+            "EMP_LNAME" : "King",
+            "EMP_SSN" : "666666602",
+            "EMP_SALARY" : 44000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Lyle",
+            "EMP_LNAME" : "Leslie",
+            "EMP_SSN" : "666666603",
+            "EMP_SALARY" : 41000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Billie",
+            "EMP_LNAME" : "King",
+            "EMP_SSN" : "666666604",
+            "EMP_SALARY" : 38000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Megan",
+            "EMP_LNAME" : "Jones",
+            "EMP_SSN" : "254937381",
+            "EMP_SALARY" : 62000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Jon",
+            "EMP_LNAME" : "Kramer",
+            "EMP_SSN" : "666666605",
+            "EMP_SALARY" : 41500,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Gerald",
+            "EMP_LNAME" : "Small",
+            "EMP_SSN" : "666666607",
+            "EMP_SALARY" : 29000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Arnold",
+            "EMP_LNAME" : "Head",
+            "EMP_SSN" : "666666608",
+            "EMP_SALARY" : 33000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Helga",
+            "EMP_LNAME" : "Pataki",
+            "EMP_SSN" : "666666609",
+            "EMP_SALARY" : 32000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Naveen",
+            "EMP_LNAME" : "Drew",
+            "EMP_SSN" : "666666610",
+            "EMP_SALARY" : 34000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Carl",
+            "EMP_LNAME" : "Reedy",
+            "EMP_SSN" : "666666611",
+            "EMP_SALARY" : 32000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Sammy",
+            "EMP_LNAME" : "Hall",
+            "EMP_SSN" : "666666612",
+            "EMP_SALARY" : 37000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Red",
+            "EMP_LNAME" : "Bacher",
+            "EMP_SSN" : "666666613",
+            "EMP_SALARY" : 33500,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Roy",
+            "EMP_LNAME" : "Lewallen",
+            "EMP_SSN" : "999999999",
+            "EMP_SALARY" : 75500,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Jennifer",
+            "EMP_LNAME" : "Joy",
+            "EMP_SSN" : "223344667",
+            "EMP_SALARY" : 45000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Erin",
+            "EMP_LNAME" : "Maxfield",
+            "EMP_SSN" : "242535609",
+            "EMP_SALARY" : 72000,
+            "EMP_DNO" : 8
+        }, 
+        {
+            "EMP_FNAME" : "Sheldon",
+            "EMP_LNAME" : "Cucuou",
+            "EMP_SSN" : "849934919",
+            "EMP_SALARY" : 35500,
+            "EMP_DNO" : 8
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a7"),
+    "DNAME" : "HR",
+    "MANAGER_FNAME" : "Juan",
+    "MANAGER_LNAME" : "Linda",
+    "MGR_START_DATE" : "01-FEB-1989",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "Jill",
+            "EMP_LNAME" : "Jarvis",
+            "EMP_SSN" : "666666601",
+            "EMP_SALARY" : 36000,
+            "EMP_DNO" : 9
+        }, 
+        {
+            "EMP_FNAME" : "Ray",
+            "EMP_LNAME" : "King",
+            "EMP_SSN" : "666666606",
+            "EMP_SALARY" : 44500,
+            "EMP_DNO" : 9
+        }, 
+        {
+            "EMP_FNAME" : "Kim",
+            "EMP_LNAME" : "Ted",
+            "EMP_SSN" : "444222666",
+            "EMP_SALARY" : 50000,
+            "EMP_DNO" : 9
+        }, 
+        {
+            "EMP_FNAME" : "Juan",
+            "EMP_LNAME" : "Linda",
+            "EMP_SSN" : "112244668",
+            "EMP_SALARY" : 55000,
+            "EMP_DNO" : 9
+        }, 
+        {
+            "EMP_FNAME" : "willie",
+            "EMP_LNAME" : "Mary",
+            "EMP_SSN" : "234234234",
+            "EMP_SALARY" : 12000,
+            "EMP_DNO" : 9
+        }, 
+        {
+            "EMP_FNAME" : "Johny",
+            "EMP_LNAME" : "Smith",
+            "EMP_SSN" : "122344668",
+            "EMP_SALARY" : 65000,
+            "EMP_DNO" : 9
+        }, 
+        {
+            "EMP_FNAME" : "Percy",
+            "EMP_LNAME" : "Liang",
+            "EMP_SSN" : "398172999",
+            "EMP_SALARY" : 55000,
+            "EMP_DNO" : 9
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a8"),
+    "DNAME" : "Networking",
+    "MANAGER_FNAME" : "Sunil",
+    "MANAGER_LNAME" : "Gupta",
+    "MGR_START_DATE" : "15-MAY-2009",
+    "employees" : [ 
+        {
+            "EMP_FNAME" : "Sunil",
+            "EMP_LNAME" : "Gupta",
+            "EMP_SSN" : "110110110",
+            "EMP_SALARY" : 80000,
+            "EMP_DNO" : 3
+        }
+    ],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("61149eb6c603b9188c9ce0a9"),
+    "DNAME" : "QA",
+    "MANAGER_FNAME" : "Joseph",
+    "MANAGER_LNAME" : "Kirkish",
+    "MGR_START_DATE" : "2-FEB-2010",
+    "employees" : [],
+    "_class" : "com.db2.project2.entity.nested.Department"
+}
